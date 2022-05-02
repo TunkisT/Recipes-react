@@ -4,8 +4,9 @@ import styled from 'styled-components';
 const NavDiv = styled.div`
   display: flex;
   justify-content: space-between;
-  padding: 0 5em;
+  padding: 1em 2em;
   align-items: baseline;
+  border-top: 2px solid #ede4e1
 `;
 
 const StyledLink = styled.a`
