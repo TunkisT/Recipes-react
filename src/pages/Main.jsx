@@ -1,5 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
+import FirstSection from '../components/FirstSection';
 import Navigation from '../components/Navigation';
 
 const Image = styled.img`
@@ -21,6 +22,7 @@ function Main() {
         />
       </Head>
       <Navigation />
+      <FirstSection />
     </div>
   );
 }
