@@ -1,19 +1,38 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const NavDiv = styled.div`
+  display: flex;
+  justify-content: space-between;
+  padding: 0 5em;
+  align-items: baseline;
+`;
+
 const StyledLink = styled.a`
-  color: red;
+  color: black;
+  text-decoration: none;
+  margin: 10px;
+  font-size: 20px;
+`;
+const StyledButton = styled.button`
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 2em;
+  width: 10em;
+  height: 2.5em;
+  font-size: 15px;
 `;
 
 function Navigation() {
   return (
-    <div>
+    <NavDiv>
       <nav>
-        <StyledLink>Home</StyledLink>
-        <StyledLink>Recipes</StyledLink>
+        <StyledLink href='#'>Home</StyledLink>
+        <StyledLink href='#'>Recipes</StyledLink>
       </nav>
-      
-    </div>
+      <StyledButton>+Submit Recipe</StyledButton>
+    </NavDiv>
   );
 }
 
