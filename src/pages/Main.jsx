@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Navigation } from '../components';
+import CardList from '../components/CardList/CardList';
 import FirstSection from '../components/FirstSection/FirstSection';
+import Input from '../components/Input/Input';
 
 const Image = styled.img`
   width: 130px;
@@ -23,6 +25,8 @@ function Main() {
       </Head>
       <Navigation />
       <FirstSection />
+      <Input />
+      <CardList />
     </div>
   );
 }
