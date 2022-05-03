@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
-import FirstSection from '../components/FirstSection';
-import Navigation from '../components/Navigation';
+import { Navigation } from '../components';
+import FirstSection from '../components/FirstSection/FirstSection';
 
 const Image = styled.img`
   width: 130px;
